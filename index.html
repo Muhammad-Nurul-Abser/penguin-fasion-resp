@@ -43,22 +43,40 @@
     <section class="p-5 mx-0" style="background-color: #ffe6ff; ">
         <div class="row d-flex bg-red">
             <div class="col- col-lg-6 col-md-6 align-middle mt-5">
-                <h1 class="mt-5 " style=" font-family: Fantasy;"> <span style="color: #FABE4C; font-size: 60px;
+                <h1 class="mt-5" style=" font-family: Fantasy;" > <span id="title" style=" 
                     ">Be the Penguins</span> <br>
                     of Winter</h1>
-                <p class="ms-5">Lorem Ipsum is simply dummy text of the printing
+                <p>Lorem Ipsum is simply dummy text of the printing
                     and typesetting industry.</p>
-                <a class="text-decoration-none bg-success text-white py-2 px-3 border-success rounded ms-5 mb-5"
+                <a class="text-decoration-none bg-success text-white py-2 px-3 border-success rounded mb-5"
                     href="#"><img width="30px" height="30px" src="images/icons/shopping-cart 1.png" alt=""> buy now</a>
             </div>
-            <div class="col-lg-6 col-md-6  col-sm-12  mt-sm-4 bg-dark position-relative mt-sm-5">
 
-                <img class="w-100 h-100" src="images/model.png" alt="">
-            </div>
+
+            <img class="img-fluid  col-lg-6 col-md-6  col-sm-12  mt-sm-4 position-relative mt-sm-5"
+                src="images/model.png" alt="" id="penguin">
+
         </div>
     </section>
 
     <script src="js/bootstrap.bundle.min.js"></script>
+    <style>
+        #penguin {
+            max-width: 400px;
+            max-height: 360px;
+            
+        }
+        #title{
+            color: #FABE4C;
+            font-size: 60px;
+        }
+
+        @media (max-width:320px) {
+            #title {
+                font-size: 40px;
+            }
+        }
+    </style>
 </body>
 
 </html>
