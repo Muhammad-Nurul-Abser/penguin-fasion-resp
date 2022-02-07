@@ -11,9 +11,7 @@
 #image{
     border-radius: 20px;
 }
-
-
-@media (max-width:320px) {
+@media (max-width:760px) {
 
     #title {
         font-size: 40px;
@@ -23,4 +21,38 @@
         padding-right: 0;
         
     }
+    .container{
+        justify-content: center;
+        align-items: center;
+      
+    }
+   .row1{
+       margin-left: 0%;
+       margin: auto;
+       justify-content: center;
+       text-align: center;
+       align-items: center;
+       width: 50%;
+   }
+  
+   #women-man{
+       text-align: center;
+       margin-right: 10%;
+   }
+   #penguin{
+       justify-content: center;
+       align-items: center;
+       margin: auto;
+   }
+   #ftr-img{
+       width: 40%;
+       height: 80%;
+       justify-content: center;
+       align-items: center;
+       margin-top: 6% ;
+   }
+   .w-50{
+       width: 100%!important;
+   }
+
 }
